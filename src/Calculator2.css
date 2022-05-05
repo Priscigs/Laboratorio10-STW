@@ -1,0 +1,56 @@
+.calcu2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    width: 400px;
+    height: 100px;
+    background-color: transparent;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+
+.grid-buttonC2 {
+    font-size: 50px;
+    background-color: transparent;
+}
+
+.btnC2{
+    font-size: 35px;
+    width: 100px;
+    height: 100px;
+    background-size: 500px 500px;
+    background-color: darkgrey;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50%;
+}
+
+.btnC2:hover {
+    opacity: 0.8;
+}
+
+.btnC22{
+    font-size: 35px;
+    width: 100px;
+    height: 100px;
+    background-size: 500px 500px;
+    background-color:orange;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50%;
+}
+
+.btnC22:hover {
+    opacity: 0.8;
+}
+
+.btnC3{
+    font-size: 35px;
+    width: 200px;
+    height: 100px;
+    background-size: 500px 500px;
+    background-color:darkgrey;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 30%;
+}
+
+.btnC3:hover {
+    opacity: 0.8;
+}

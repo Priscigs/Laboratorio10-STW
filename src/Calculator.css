@@ -1,0 +1,41 @@
+.calcu {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 400px;
+    height: 100px;
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+.grid-button {
+    font-size: 50px;
+    background-color: transparent;
+}
+
+.btn{
+    font-size: 35px;
+    width: 100px;
+    height: 100px;
+    background-size: 500px 500px;
+    background-color: darkgrey;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50%;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn2{
+    font-size: 35px;
+    width: 100px;
+    height: 100px;
+    background-size: 500px 500px;
+    background-color:orange;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50%;
+}
+
+.btn2:hover {
+    opacity: 0.8;
+}

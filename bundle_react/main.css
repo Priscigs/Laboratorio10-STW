@@ -13,11 +13,40 @@ body {
     width: auto;
     height: 50px;
     text-align: center;
-    padding-bottom: 15px;
 }
 
 .words {
     color: white;
+}
+/*!*******************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Display.css ***!
+  \*******************************************************************/
+.display {
+    width: 400px;
+    height: 150px;
+    background-color: transparent;
+    padding-top: 10px;
+    margin: 0 auto;
+    position: sticky;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+    font-size: 70px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.display2 {
+    width: 400px;
+    height: 100px;
+    background-color: #fafafa75;
+    padding-top: 20px;
+    margin: 0 auto;
+    position: sticky;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+    font-size: 70px;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 /*!**********************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/Calculator.css ***!
@@ -29,6 +58,7 @@ body {
     height: 100px;
     background-color: transparent;
     margin: 0 auto;
+    /* margin-top: 50px; */
 }
 
 .grid-button {
@@ -62,21 +92,6 @@ body {
 
 .btn2:hover {
     opacity: 0.8;
-}
-/*!*******************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Display.css ***!
-  \*******************************************************************/
-.display {
-    width: 400px;
-    height: 100px;
-    background-color: #fafafa75;
-    padding-top: 20px;
-    margin: 0 auto;
-    border-radius: 1rem;
-    margin-bottom: .5rem;
-    font-size: 70px;
-    word-wrap: break-word;
-    word-break: break-all;
 }
 /*!***********************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js!./src/Calculator2.css ***!

@@ -17,7 +17,7 @@
     width: 100px;
     height: 100px;
     background-size: 500px 500px;
-    background-color: darkgrey;
+    background-color: #fafafa75;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 50%;
 }
@@ -31,7 +31,7 @@
     width: 100px;
     height: 100px;
     background-size: 500px 500px;
-    background-color:orange;
+    background-color: #ff9100;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 50%;
 }

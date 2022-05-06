@@ -1,8 +1,12 @@
 .display {
     width: 400px;
     height: 100px;
-    background-color: #252525;
+    background-color: #fafafa75;
     padding-top: 20px;
     margin: 0 auto;
-    border-radius: 20%;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+    font-size: 70px;
+    word-wrap: break-word;
+    word-break: break-all;
 }

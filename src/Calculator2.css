@@ -18,7 +18,7 @@
     width: 100px;
     height: 100px;
     background-size: 500px 500px;
-    background-color: darkgrey;
+    background-color: #fafafa75;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 50%;
 }
@@ -32,7 +32,7 @@
     width: 100px;
     height: 100px;
     background-size: 500px 500px;
-    background-color:orange;
+    background-color: #ff6d00;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 50%;
 }
@@ -46,9 +46,9 @@
     width: 200px;
     height: 100px;
     background-size: 500px 500px;
-    background-color:darkgrey;
+    background-color:#fafafa75;
     font-family: 'Courier New', Courier, monospace;
-    border-radius: 30%;
+    border-radius: 3rem;
 }
 
 .btnC3:hover {

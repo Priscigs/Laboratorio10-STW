@@ -1,9 +1,24 @@
 .display {
     width: 400px;
+    height: 150px;
+    background-color: transparent;
+    padding-top: 10px;
+    margin: 0 auto;
+    position: sticky;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
+    font-size: 70px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.display2 {
+    width: 400px;
     height: 100px;
     background-color: #fafafa75;
     padding-top: 20px;
     margin: 0 auto;
+    position: sticky;
     border-radius: 1rem;
     margin-bottom: .5rem;
     font-size: 70px;

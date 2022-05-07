@@ -1,16 +1,17 @@
 import React from 'react';
 import './Display.css';
 import './Calculator.css';
-import './Calculator2.css'
+import './Calculator2.css';
 
 function Display() {
-    const [r, res] = React.useState(0);
+    const [r, res] = React.useState("");
     const [entryN, setEntry] = React.useState("");
     const [entryN2, setEntry2] = React.useState("");
     const [sign, setSign] = React.useState("");
+    const [m, setMinus] = React.useState("");
 
     function entry(number) {
-        if(entryN.length < 9){
+        if(entryN.length < 9 && entryN2.length < 9) {
             if (sign === ""){
                 setEntry(entryN + number)
             }
@@ -24,16 +25,20 @@ function Display() {
         setSign(symbol)
     }
 
+    function minus (minus) {
+        setMinus(minus)
+    }
+
     function operand () {
         switch (sign){
             case "*":
-              if(res <= 999999999){
                 res(Number(entryN) * Number(entryN2));
-                break; 
-              }else{
-                res("ERROR")
-                break; 
-              }
+            //   if(res <= 999999999){
+                
+            //   }else{
+            //     res("ERROR")
+            //   }
+              break;
             case "//":
               res(Number(entryN) / Number(entryN2));
               break; 
@@ -49,22 +54,27 @@ function Display() {
         }
     }
 
+    function erase () {
+        res("");
+        setEntry("");
+        setEntry2("");
+        setMinus("");
+    }
+
     return (
         <div className='display'>
-            
             <div className='display2'>
-                {r ? r : (!sign ? entryN : entryN2)}
-                {/* {entryN} */}
+                {m ? m + entryN : (r ? r : (!sign ? entryN : entryN2))}
             </div>
             <div className='calcu'>
                 <div className="grid-button">
-                    <button type="button" className="btn">C</button>
+                    <button type="button" onClick = {erase} className="btn">C</button>
                 </div>  
                 <div className="grid-button">
-                    <button type="button" onClick = {() => {symbol ("/")}} className="btn">mod</button>
+                    <button type="button" onClick = {() => {minus ("-")}}  className="btn">+/-</button>
                 </div>  
                 <div className="grid-button">
-                    <button type="button" className="btn">%</button>
+                    <button type="button" onClick = {() => {symbol ("/")}} className="btn">%</button>
                 </div>  
                 <div className="grid-button">
                     <button type="button" onClick = {() => {symbol ("//")}} className="btn2">➗</button>

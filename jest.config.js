@@ -5,7 +5,7 @@
 
 module.exports = {
 
-  transformIgnorePatterns: ["[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"],
+  transformIgnorePatterns: ['[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$'],
 
   // transform: {
   //   "^.+\\.(js|jsx|mjs)$": '<rootDir>/src/setupTests.js'
@@ -17,5 +17,5 @@ module.exports = {
 
   collectCoverage: true,
 
-  coverageDirectory: "coverage",
+  coverageDirectory: 'coverage',
 };

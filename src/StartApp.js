@@ -7,7 +7,7 @@ class StartApp extends React.Component {
     render() {
         return (
             <div>
-                <Header></Header>
+                <Header data-testid='input-text-test'></Header>
                 <Display></Display>
             </div>
         );

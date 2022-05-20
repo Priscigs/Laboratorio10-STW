@@ -124,7 +124,7 @@ function Display() {
           <button type="button" className="btnC2">.</button>
         </div>
         <div className="grid-buttonC2">
-          <button type="button" onClick={operand} className="btnC22">🟰</button>
+          <button data-testid="equal-test" type="button" onClick={operand} className="btnC22">🟰</button>
         </div>
       </div>
     </div>

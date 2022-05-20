@@ -77,7 +77,7 @@ function Display() {
           <button type="button" onClick={() => { symbol('/'); }} className="btn">%</button>
         </div>
         <div className="grid-button">
-          <button type="button" onClick={() => { symbol('/'); }} className="btn2">➗</button>
+          <button data-testid="div-test" type="button" onClick={() => { symbol('/'); }} className="btn2">➗</button>
         </div>
         <div className="grid-button">
           <button type="button" onClick={() => { entry(7); }} className="btn">7</button>
@@ -89,7 +89,7 @@ function Display() {
           <button type="button" onClick={() => { entry(9); }} className="btn">9</button>
         </div>
         <div className="grid-button">
-          <button type="button" onClick={() => { symbol('*'); }} className="btn2">✖️</button>
+          <button data-testid="multiply-test" type="button" onClick={() => { symbol('*'); }} className="btn2">✖️</button>
         </div>
         <div className="grid-button">
           <button type="button" onClick={() => { entry(4); }} className="btn">4</button>
@@ -101,7 +101,7 @@ function Display() {
           <button type="button" onClick={() => { entry(6); }} className="btn">6</button>
         </div>
         <div className="grid-button">
-          <button type="button" onClick={() => { symbol('-'); }} className="btn2">➖</button>
+          <button data-testid="minus-test" type="button" onClick={() => { symbol('-'); }} className="btn2">➖</button>
         </div>
         <div className="grid-button">
           <button type="button" onClick={() => { entry(1); }} className="btn">1</button>
@@ -113,7 +113,7 @@ function Display() {
           <button type="button" onClick={() => { entry(3); }} className="btn">3</button>
         </div>
         <div className="grid-button">
-          <button type="button" onClick={() => { symbol('+'); }} className="btn2">➕</button>
+          <button data-testid="plus-test" type="button" onClick={() => { symbol('+'); }} className="btn2">➕</button>
         </div>
       </div>
       <div className="calcu2">
